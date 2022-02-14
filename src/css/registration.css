@@ -1,0 +1,29 @@
+.form3 {
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px 100px;
+}
+
+.row *{
+    padding-left: 0%;
+}
+
+.form-input {
+    padding: 0 10px !important;
+    width: 100%;
+}
+
+hr{
+    margin: 20px 0 !important;
+}
+
+.form3-button{
+    float: left;
+    margin-top: 60px;
+    width: 136px;
+    height: 45px;
+    color: white;
+    background-color: #f14d54;
+    border: none;
+    border-radius: 3px;
+}

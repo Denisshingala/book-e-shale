@@ -1,0 +1,149 @@
+.book-title {
+    font-family: 'Roboto' !important;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #414141;
+    font-weight: bold;
+}
+
+.form3 {
+    width: 90% !important;
+    display: flex;
+    justify-content: right;
+    margin: 45px 0 32px 0;
+    padding: 0% !important;
+}
+
+.product-searchbar {
+    max-width: 340px;
+    height: 40px;
+    color: rgb(65, 65, 65);
+    margin-right: 10px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.product-searchbar::placeholder {
+    font-style: italic;
+}
+
+.product-submit-button {
+    width: 100px;
+    height: 40px;
+    background-color: #f14d54;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:400px) {
+    .form3 {
+        width: 100% !important;
+        justify-content: center;
+    }
+
+    .product-submit-button {
+        font-size: small;
+    }
+}
+
+.product-table-container{
+    width: 100%;
+    overflow: auto;
+    padding: 0 10vw;
+}
+
+.product-table {
+    width: 100%;
+    font-size: 14px;
+    color: #212121;
+    margin: auto;
+}
+
+.product-table tr {
+    height: 64px;
+    border-bottom:1px solid silver ;
+}
+
+.product-table td,.product-table th {
+    padding: 20px;
+}
+
+.edit-btn, .delete-btn {
+    background: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    transition: all 300ms;
+}
+
+.edit-btn {
+    color: #80BF32;
+    border: 1px solid #80BF32;
+    margin-right: 10px;
+}
+
+.edit-btn:hover {
+    background-color: #80BF32;
+    color: white;
+}
+
+.delete-btn {
+    color: #f14d54;
+    border: 1px solid #f14d54;
+}
+
+.delete-btn:hover {
+    background-color: #f14d54;
+    color: white;
+}
+
+@media only screen and (max-width:950px) {
+    .product-table-container{
+        padding: 0 1vw;
+    }
+
+    .product-table{
+        width: 900px;
+    }
+}
+
+.table-row-counter{
+    margin: 28px 0 80px 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.table-row-counter select{
+    height: 40px;
+    border: 1px solid silver;
+    outline: none;
+}
+
+.table-row-counter h6{
+    align-items: center;
+    margin: 0 10px;
+}
+
+.row-btn{
+    border: none;
+    border-radius: 50%;
+    padding: 10px 17px;
+    font-size: large;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .group-btn{
+        margin-top: 20px;
+    }
+
+    .table-row-counter{
+        justify-content: center;
+    }
+}

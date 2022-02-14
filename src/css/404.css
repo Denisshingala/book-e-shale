@@ -1,0 +1,14 @@
+.error {
+    height: 50vh;
+    animation: infinite alternate-reverse flip-flop 1s;
+}
+
+@keyframes flip-flop {
+    to {
+        color: silver;
+    }
+
+    from {
+        color: black;
+    }
+}
